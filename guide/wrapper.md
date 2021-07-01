@@ -293,6 +293,7 @@ orderByDesc(boolean condition, R... columns)
 - 排序：ORDER BY 字段, ... DESC
 - 例: `orderByDesc("id", "name")`--->`order by id DESC,name DESC`
 
+   `orderByAsc("id").orderByDesc("name")`--->`order by id ASC,name DESC`
 ### orderBy
 
 ``` java{1}
